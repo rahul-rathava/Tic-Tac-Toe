@@ -25,7 +25,7 @@ Open terminal / command prompt and navigate to the project folder.
 g++ code.cpp -o tictactoe
 ```
 
-### ▶ Run
+###  Run
 
 ```bash
 ./tictactoe
