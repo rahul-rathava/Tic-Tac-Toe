@@ -1,10 +1,10 @@
-# Tic-Tac-Toe Game 🎮
+# Tic-Tac-Toe Game 
 
 A simple two-player **Tic-Tac-Toe** (or **Noughts and Crosses**) game built using **C++**. Played via the console, it supports turn-based input, checks for win or draw conditions, and displays the board after each move.
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Two-player input using names
 - Player turn tracking using 'X' and 'O'
@@ -15,9 +15,9 @@ A simple two-player **Tic-Tac-Toe** (or **Noughts and Crosses**) game built usin
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
-### 💻 Compile
+###  Compile
 
 Open terminal / command prompt and navigate to the project folder.
 
@@ -25,7 +25,7 @@ Open terminal / command prompt and navigate to the project folder.
 g++ code.cpp -o tictactoe
 ```
 
-### ▶️ Run
+### ▶ Run
 
 ```bash
 ./tictactoe
@@ -33,7 +33,7 @@ g++ code.cpp -o tictactoe
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Tic-Tac-Toe/
@@ -43,7 +43,7 @@ Tic-Tac-Toe/
 
 ---
 
-## ✨ Sample Gameplay
+##  Sample Gameplay
 
 ```
 Enter Player Name: 
@@ -72,7 +72,7 @@ Bob Wins!
 
 ---
 
-## 💡 Possible Future Improvements
+##  Possible Future Improvements
 
 - Single-player mode with basic AI
 - GUI using C++ with graphics libraries
@@ -81,6 +81,6 @@ Bob Wins!
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and free to use.
