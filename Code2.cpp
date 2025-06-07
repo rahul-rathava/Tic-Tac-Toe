@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <limits>  // for numeric_limits
+#include <limits>  // for numeric limits
 #include <chrono>  // for timer
-#include <thread>  // for sleep_for
+#include <thread>  // for sleep for
 #include <cstdlib> // for rand
 #include <ctime>   // for time (seed rand)
 using namespace std;
@@ -55,7 +55,7 @@ public:
     }
 
     bool checkWin() {
-        // Rows, columns, diagonals
+        
         for(int i=0; i<3; i++){
             if(board[i][0] == currentToken && board[i][1] == currentToken && board[i][2] == currentToken) return true;
             if(board[0][i] == currentToken && board[1][i] == currentToken && board[2][i] == currentToken) return true;
@@ -162,7 +162,7 @@ public:
 
     void computerMove() {
         cout << "Computer's turn (" << currentToken << "). Thinking...\n";
-        // Simple AI: pick random empty cell
+        // Simple ai  pick random empty cell
         vector<int> emptyCells;
         for(int i=0; i<9; i++){
             int r = i/3, c = i%3;
